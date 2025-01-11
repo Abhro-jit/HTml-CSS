@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Restaurant Order Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      width: 400px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    form {
+      padding: 20px;
+      background-color: #f2f2f2;
+      border-radius: 5px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input[type="text"],
+    select {
+      width: 100%;
+      padding: 5px;
+      border-radius: 3px;
+      border: 1px solid #ccc;
+    }
+
+    .submit-btn {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      border: none;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Restaurant Order</h1>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required>
+
+      <label for="menu">Menu:</label>
+      <select id="menu" name="menu">
+        <option value="pizza">Pizza</option>
+        <option value="burger">Burger</option>
+        <option value="pasta">Pasta</option>
+        <option value="salad">Salad</option>
+      </select>
+
+      <label for="quantity">Quantity:</label>
+      <input type="text" id="quantity" name="quantity" required>
+
+      <input type="submit" value="Place Order" class="submit-btn">
+    </form>
+  </div>
+</body>
+</html>

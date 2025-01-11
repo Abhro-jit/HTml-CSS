@@ -1,0 +1,29 @@
+.login{
+    margin: 50px 0;
+}
+
+.login h1{
+    text-align: center;
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+form{
+    margin: 20px auto;
+    font-size: 22px;
+    height: 500px;
+    background: url("../images/chef.jpg") no-repeat center center;
+}
+
+form div{
+    margin: 20px 0;
+}
+
+form div label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+form div input{
+    font-size: 22px;
+}

@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+    color: #ff3300;
+}
+h3{
+    font-size: 35px;
+}
+h4{
+    font-size: 30px;
+    color: #ff3300;
+}
+h5{
+    font-size: 18px;
+}
+p{
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+li{
+    list-style: none;
+}
+
+span{
+    color:#c00;
+}
+
+/* header */
+header{
+    height: 90vh;
+    width: 100%;
+}
+    /* navbar */
+nav{
+    background-color: #c00;
+    color: #fff;
+}
+.navbar h1{
+    float: left;
+    width: 60%;
+}
+.navbar ul{
+    display: flex;
+    float: right;
+    width: 40%;
+}
+.navbar ul li a{
+    font-weight: 600;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover{
+    color: black;
+}
+
+.container{
+    display: flex;
+    max-width: 1150px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-text, .header-img, .about-text, .about-img{
+    padding-top: 3%;
+}
+.header-text, .about-text, .combo-text{
+    width: 45%;
+}
+.header-img, .about-img, .combo-img{
+    width: 35%;
+}
+
+.btn{
+    background-image: linear-gradient(35deg, #c00, #f00,#ff0);
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* About */
+#about{
+    /* margin: 30px 0; */
+    height: 70vh;
+    width: 100%;
+    background-image: url(images/aboutbg1.jpg);
+    background-repeat: no-repeat;
+}
+
+/* Order */
+.order-description{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#order img{
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.recipe{
+    width: 27%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1%;
+    box-shadow: 10px 10px 10px 10px #ccc;
+}
+
+.combo{
+    margin-top: 50px;
+    padding: 30px 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+/* followers */
+.followers{
+    margin: 80px 40px;
+    padding-top: 1%;
+}
+
+.follower{
+    text-align: center;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* footer */
+#contact{
+    background-color: #000;
+    color: #aaa;
+    text-align: center;
+    padding: 6px 0;
+}
+#contact p{
+    font-size: 15px;
+}
